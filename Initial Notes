@@ -1,1 +1,11 @@
 \initialnotes
+\section{Arithmetic Functions}\label{append:Arithmetic_Functions}
+    An arithmetic function $f$ is a function $f:\N \to \C$. That is, it takes the positive integers into the complex numbers. We say that $f$ is \textbf{additive}\index{additive} if $f(nm) = f(n)+f(m)$ for all positive integers $n$ and $m$ such that $(n,m) = 1$. If this condition simply holds for all $n$ and $m$ then we say $f$ is \textbf{completely additive}\index{completely additive}. Similarly, we say that $f$ is \textbf{multiplicative}\index{multiplicative} if $f(nm) = f(n)f(m)$ for all positive integers $n$ and $m$ such that $(n,m) = 1$. If this condition simply holds for all $n$ and $m$ then we say $f$ is \textbf{completely multiplicative}\index{completely multiplicative}. Many important arithmetic functions are either additive, completely additive, multiplicative, or completely multiplicative. Note that if a $f$ is additive or multiplicative then $f$ is uniquely determined by its values on prime powers and if $f$ is completely additive or completely multiplicative then it is uniquely determined by its values on primes. Moreover, if $f$ is additive or completely additive then $f(1) = 0$ and if $f$ is multiplicative or completely multiplicative then $f(1) = 1$.
+
+    Below is a list defining the most important arithmetic functions. Some of these functions are restrictions of common functions but we define them here as arithmetic functions because their domain being $\N$ is important.
+    \begin{enumerate}[label=(\roman*)]
+      \item The \textbf{constant function}\index{constant function}: The function $\mathbf{1}(n)$ defined by $\mathbf{1}(n) = 1$ for all $n \ge 1$. This function is neither additive or multiplicative.
+      \item The \textbf{unit function}\index{unit function}: The function $e(n)$ defined by
+      \[
+        e(n) = \begin{cases} 1 & \text{if $n = 1$}, \\ 0 & \text{if $n \ge 2$}. \end{cases}
+      \]
